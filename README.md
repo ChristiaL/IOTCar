@@ -1,17 +1,37 @@
-This README.md file is displayed on your project page. You should edit this 
-file to describe your project, including instructions for building and 
-running the project, pointers to the license under which you are making the 
-project available, and anything else you think would be useful for others to
-know.
+How to deploy a Node.js program to Bluemix
+==========================================
 
-We have created an empty license.txt file for you. Well, actually, it says,
-"<Replace this text with the license you've chosen for your project.>" We 
-recommend you edit this and include text for license terms under which you're
-making your code available. A good resource for open source licenses is the 
-[Open Source Initiative](http://opensource.org/).
+1.	First of all, you should have a Bluemix account. 
 
-Be sure to update your project's profile with a short description and 
-eye-catching graphic.
+2.	Login your account and create a workspace.  Click the button upper right to scan your profile. Make sure you are in the US South Region.
 
-Finally, consider defining some sprints and work items in Track & Plan to give 
-interested developers a sense of your cadence and upcoming enhancements.
+3.	Click the “Create Application” button. 
+
+4.	Select “Cloud Foundry App” in the left sidebar.  Click “SDK for Node.js”.
+
+5.	Give a unique name for your app. Your app name will generate the host name automatically. 
+
+6.  Click “Create” button lower right. The page jump to the “getting Started”. 
+
+7.	Click the buttons to download and install both the Bluemix Command Line and the CF Command Line.
+
+8.	Download our demo code on Git. 
+https://github.com/CognitiveBuild/Thoth/raw/master/DriveCar.zip
+
+9.	Extract the zip package and change the host name to yours.
+① Open “index.html” under the public folder. Change the URL name.
+②Open the “manifest.yml” and change the name and host. The host name is same as    
+ your app name but be attention the first letter of the host name must be lowercase. 
+
+10.	 Run some commands as the guide shown in the “Getting Started” page. No need to download the demo code in step 1. Just start from the step 2.
+① cd your_new_directory(change directory to the git code which download in step 8).
+② cf api https://api.ng.bluemix.net
+③ cf login(login with your bluemix account and switch the workspace)
+④ cf push
+
+
+ 
+
+
+
+
