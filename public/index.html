@@ -11,8 +11,11 @@
 	<script src = "js/jquery-2.1.4.min.js"></script>
 	<script> 
 		
+//	***********************************		
+//      need to fill in your host name here
 		
-		var socket = io.connect("http://drivecar.mybluemix.net");
+		var socket = io.connect("http://yourHostName.mybluemix.net");
+		
 		socket.on("message", function (data) {
 			console.log("socket data: " + data);
 			// console.log(typeof(data));
@@ -29,32 +32,44 @@
 					
 					$("#carDirection").removeClass("direction");
 					$("#carDirection").addClass("up");
-					//pressAKey("w");
-					socket.emit("String", "w");
+					
+					//********************
+					//need to fill in a method "socket.emit(param1,param2)" in line 39.
+					//The first parameter is the data type "String",the second parameter is the data "w"
+					
 				} 
 				if (event.keyCode === 83 && kflag === false){ 
 					console.log("你按下了s"); 
 					
 					$("#carDirection").removeClass("direction");
 					$("#carDirection").addClass("down");
-					//pressAKey("s");
-					socket.emit("String", "s");
+					
+					//********************
+					//need to fill in a method "socket.emit(param1,param2)" in line 50.
+					//The first parameter is the data type "String",the second parameter is the data "s"
+					
 				} 
 				if (event.keyCode === 65 && kflag === false){ 
 					console.log("你按下了a"); 
 					
 					$("#carDirection").removeClass("direction");
 					$("#carDirection").addClass("left");
-					//pressAKey("a");
-					socket.emit("String", "a");
+					
+					//********************
+					//need to fill in a method "socket.emit(param1,param2)" in line 61.
+					//The first parameter is the data type "String",the second parameter is the data "a"
+					
 				} 
 				if (event.keyCode === 68 && kflag === false){ 
 					console.log("你按下了d"); 
 					
 					$("#carDirection").removeClass("direction");
 					$("#carDirection").addClass("right");
-					//pressAKey("d");
-					socket.emit("String", "d");
+					
+					//********************
+					//need to fill in a method "socket.emit(param1,param2)" in line 72.
+					//The first parameter is the data type "String",the second parameter is the data "d"
+					
 				}
 				else{} 
 		} )
