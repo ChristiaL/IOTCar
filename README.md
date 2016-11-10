@@ -27,7 +27,7 @@ How to deploy a Node.js program to Bluemix
 
 11.	Back to your Git page to scan the new demo code. Now the code is missing some key code about sending data with socketIO which needs user to fill in. If you are not good at coding, please open the folder “document” to scan and copy the answer to the code.
 
-  1)	Open “index.html” under the public folder.  Fill in your Bluemix host name(step 5)  in line 17. Line 39,50,61,72 need to fill in a  common method “socket.emit()”. The first parameter declares the data type is “String”. The second parameter defines the data is “w” or ”s” or ”a” or ”d”(up/down/left/right).   
+  1)	Open “index.html” under the public folder. Line 39,50,61,72 need to fill in a  common method “socket.emit()”. The first parameter declares the data type is “String”. The second parameter defines the data is “w” or ”s” or ”a” or ”d”(up/down/left/right).   
 
   2)	Open “app.js” in the root directory. Fill in a method in line 35. The first parameter declares the data type is “message”. The second parameter defines the data is the parameter “key” in the callback function. 
 	
