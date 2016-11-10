@@ -1,1 +1,18 @@
+index.html
 
+17. yourName.mybluemix.net
+39. socket.emit("String", "w");
+50. socket.emit("String", "s");
+61. socket.emit("String", "a");
+72. socket.emit("String", "d");
+
+
+app.js
+
+35. io.sockets.emit("message", key);
+
+
+manifest.yml
+
+6. name: YourName
+7. host: yourname
