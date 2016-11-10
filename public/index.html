@@ -11,10 +11,9 @@
 	<script src = "js/jquery-2.1.4.min.js"></script>
 	<script> 
 		
-//	***********************************		
-//      need to fill in your host name here
+		var hostName = window.location.host;
 		
-		var socket = io.connect("http://yourHostName.mybluemix.net");
+		var socket = io.connect(hostName);
 		
 		socket.on("message", function (data) {
 			console.log("socket data: " + data);
@@ -27,6 +26,7 @@
 			$("#carDirection").attr("tabindex",0);
  			$("#carDirection").focus();
     		$("#carDirection").keydown(function(event){ 
+			
 				if (event.keyCode === 87 && kflag === false){ 
 					console.log("你按下了W"); 
 					
