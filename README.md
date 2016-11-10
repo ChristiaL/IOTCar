@@ -1,6 +1,8 @@
 How to deploy a Node.js program to Bluemix
 ==========================================
 
+###For more detailed steps with pictures, please scan the Word document under the "document" folder.
+
 1.	First of all, you should have a Bluemix account and a Git account. 
 
 2.	Login your account and create a workspace.  Click the button upper right to scan your profile. Make sure you are in the US South Region.
@@ -20,8 +22,8 @@ How to deploy a Node.js program to Bluemix
 9.	Select the second item “CODE” to scan your code on git. At this time, your  Node.js program is just empty. 
 
 10.	Open a new tab with following link. 
-https://github.com/ChristiaL/IOTCar
-Click the button “Fork” upper right in this page. Select the repository you created just now to fork the demo code.
+	https://github.com/ChristiaL/IOTCar
+	Click the button “Fork” upper right in this page. Select the repository you created just now to fork the demo code.
 
 11.	Back to your Git page to scan the new demo code. Now the code is missing some key code about sending data with socketIO which needs user to fill in. If you are not good at coding, please open the folder “document” to scan and copy the answer to the code.
 
@@ -36,7 +38,7 @@ Click the button “Fork” upper right in this page. Select the repository you 
 13.	 The last step, after deploy success, open your bluemix link (yourname.mybluemix.net) to scan your new program. 
 
 
-##Congratulations! You have successful deploy a node.js program to bluemix!
+###Congratulations! You have successful deploy a node.js program to bluemix!
 
  
 
