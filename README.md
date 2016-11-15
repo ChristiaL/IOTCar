@@ -29,15 +29,16 @@ How to deploy a Node.js program to Bluemix
 	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/6.png)
 
 8.	Select GitHub and give a name for your new repository. Click “Create”.
+
 	Change the source repository URL to "https://github.com/ChristiaL/IOTCar".
 	
 	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/7.png)
 
-9.	Select the second item “CODE” to scan your code on git. At this time, your  Node.js program is just empty. 
+9.	Select the second item “CODE” to scan the code on your git repository.
 
 	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/8.png)
 
-10.	Back to your Git page to scan the new demo code. Now the code is missing some key code about sending data with socketIO which needs user to fill in. If you are not good at coding, please open the folder “document” to scan and copy the answer to the code.
+10.	The code is missing some key code about sending data with socketIO which needs user to fill in. If you are not good at coding, please open the folder “document” to scan and copy the answer to the code.
 
 	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/10.png)
 
