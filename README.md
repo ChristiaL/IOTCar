@@ -29,20 +29,15 @@ How to deploy a Node.js program to Bluemix
 	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/6.png)
 
 8.	Select GitHub and give a name for your new repository. Click “Create”.
-
+	Change the source repository URL to "https://github.com/ChristiaL/IOTCar".
+	
 	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/7.png)
 
 9.	Select the second item “CODE” to scan your code on git. At this time, your  Node.js program is just empty. 
 
 	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/8.png)
 
-10.	Open a new tab with following link. 
-	https://github.com/ChristiaL/IOTCar
-	Click the button “Fork” upper right in this page. Select the repository you created just now to fork the demo code.
-	
-	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/9.png)
-
-11.	Back to your Git page to scan the new demo code. Now the code is missing some key code about sending data with socketIO which needs user to fill in. If you are not good at coding, please open the folder “document” to scan and copy the answer to the code.
+10.	Back to your Git page to scan the new demo code. Now the code is missing some key code about sending data with socketIO which needs user to fill in. If you are not good at coding, please open the folder “document” to scan and copy the answer to the code.
 
 	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/10.png)
 
@@ -58,11 +53,11 @@ How to deploy a Node.js program to Bluemix
   
 	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/13.png)
 
-12.	Back to the DevOps page (step 9). Click the third item(DELIVER). Click the start button upper right in “Build Stage” field. After build success, click the start button upper right in “Deploy Stage”.  
+11.	Back to the DevOps page (step 9). Click the third item(DELIVER). Click the start button upper right in “Build Stage” field. After build success, click the start button upper right in “Deploy Stage”.  
 
 	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/14.png)
 
-13.	 The last step, after deploy success, open your bluemix link (yourname.mybluemix.net) to scan your new program. 
+12.	 The last step, after deploy success, open your bluemix link (yourname.mybluemix.net) to scan your new program. 
 
 	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/15.png)
 
