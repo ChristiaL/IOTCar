@@ -43,8 +43,7 @@ How to deploy a Node.js program to Bluemix
 
 	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/added5.png)
 	
-
-11. 	On the Github, click on "Authorize application" button to grant the access from Bluemix DevOps service. 
+11.	On the Github, click on "Authorize application" button to grant the access form Bluemix DevOps service. 
 
 	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/added6.png)
 	
