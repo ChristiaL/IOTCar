@@ -53,7 +53,7 @@ How to deploy a Node.js program to Bluemix
 
 13.	After authorization, select "Fork" as Repository type. Change the source repository URL to "https://github.com/ChristiaL/IOTCar". Click “Create”.
 	
-	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/added8.png)
+	![image](https://raw.githubusercontent.com/ChristiaL/IOTCar/master/public/images/added9.png)
 
 14.	Select the second item “CODE” to explore the code on your git repository.
 
