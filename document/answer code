@@ -1,6 +1,6 @@
 index.html
 
-17. yourName.mybluemix.net
+
 39. socket.emit("String", "w");
 50. socket.emit("String", "s");
 61. socket.emit("String", "a");
